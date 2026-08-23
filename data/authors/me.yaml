@@ -1,116 +1,113 @@
+---
 schema: hugoblox/author/v1
 slug: me
 is_owner: true
+
 name:
-  display: Dr. Alex Johnson
-  given: Alex
-  family: Johnson
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-  pronouns: he/him
-postnominals:
-  - PhD
-  - MIEEE
+  display: Daming Huang
+  given: Daming
+  family: Huang
+  alternate: 黄达明
+  pronunciation: ''
+  pronouns: ''
+
 status:
-  icon: "☕️"
-role: Senior AI Research Scientist
+  icon: '🌏'
+
+role: PhD Candidate in Economics
+
 bio: |
-  Alex Johnson is a Senior AI Research Scientist at Meta AI. His research
-  has been published in top conferences like NeurIPS and ICML, with over
-  10,000 citations. Alex is passionate about pushing the boundaries of AI
-  while ensuring ethical development.
+  Daming Huang is a PhD candidate in Economics at the Shanghai University of Finance and Economics. His research focuses on global supply chains, transportation and logistics, international trade, and geoeconomics.
 
 affiliations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Shanghai University of Finance and Economics
+    url: https://english.sufe.edu.cn/
+  - name: The Chinese University of Hong Kong
+    url: https://www.cuhk.edu.hk/english/index.html
 
 links:
   - icon: at-symbol
-    url: mailto:alex.johnson@example.com
-    label: E-mail Me
-  - icon: brands/x
-    url: https://x.com/example
-  - icon: brands/github
-    url: https://github.com/example
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/in/example/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=example
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: mailto:hwangdaming@stu.sufe.edu.cn
+    label: Email Daming Huang
+  - icon: hero/document-text
+    url: /uploads/resume.pdf
+    label: Download CV
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - Global Supply Chains
+  - Transportation and Logistics
+  - International Trade
+  - Geoeconomics
 
 education:
-  - degree: PhD Computer Science
-    institution: Stanford University
+  - degree: M.A.-Ph.D. in Economics
+    institution: Shanghai University of Finance and Economics
+    start: 2022-09-01
+    end: 2027-06-30
+    summary: |
+      Expected 2027. Supervisor: Prof. Haoyuan Ding, Chair Professor and Dean of GSIFE.
+  - degree: Visiting Program
+    institution: The Chinese University of Hong Kong
+    start: 2024-09-01
+    end: 2025-06-30
+    summary: |
+      Visiting supervisors: Prof. Shu Lin (Economics) and Prof. Jing Wu (Operations Management).
+  - degree: B.A. in English
+    institution: Sun Yat-sen University, School of International Studies
     start: 2015-09-01
     end: 2019-06-30
-    summary: |
-      Thesis on scaling laws for neural language models. Published 5 papers in NeurIPS and ICML.
-    button:
-      text: Download dissertation
-      url: /resume.pdf
-      icon: hero/arrow-down-tray
-  - degree: MS Computer Science
-    institution: Carnegie Mellon University
-    start: 2013-09-01
-    end: 2015-05-31
-  - degree: BS Computer Science
-    institution: MIT
-    start: 2009-09-01
-    end: 2013-05-31
 
 experience:
-  - role: Senior AI Research Scientist
-    org: Meta AI
+  - role: Research Assistant
+    org: The Chinese University of Hong Kong
+    start: 2024-01-01
+    end: 2025-12-31
+    summary: |
+      Research assistant to Prof. Shu Lin and Prof. Jing Wu.
+  - role: Business Developer, European Market
+    org: Pharmaceutical Industry · Hangzhou, China
     start: 2020-01-01
-    summary: |
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models.
-    button:
-      text: View portfolio
-      url: /
-      icon: hero/arrow-down-tray
-  - role: AI Research Intern
-    org: OpenAI
-    start: 2019-06-01
-    end: 2019-12-31
-    summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+    end: 2021-12-31
 
 skills:
-  - name: Technical Skills
+  - name: Research & Programming
     items:
+      - label: Stata
+        level: 5
       - label: Python
-        level: 5
-      - label: Machine Learning
-        level: 5
-      - label: Cloud Computing
         level: 4
-  - name: Research & Communication
-    items:
-      - label: Academic Writing
+      - label: Matlab
+        level: 4
+      - label: LaTeX
         level: 5
-      - label: Conference Presentations
-        level: 4
-      - label: Grant Proposals
-        level: 4
 
 languages:
-  - name: English
+  - name: Cantonese
     level: 5
     label: Native
-  - name: Spanish
+  - name: Mandarin
+    level: 5
+    label: Native
+  - name: English
     level: 4
     label: Fluent
+  - name: Portuguese
+    level: 3
+    label: Intermediate
 
 awards:
-  - title: Best Paper Award
-    awarder: NeurIPS
-    date: "2022-12-01"
-    summary: Awarded for groundbreaking work on efficient training of large models.
+  - title: First Class Outstanding Scholarship
+    awarder: Shanghai University of Finance and Economics
+    date: '2025-01-01'
+    summary: Awarded in 2023 and 2025.
     icon: hero/trophy
+  - title: Tailong Star Scholarship
+    awarder: Zhejiang Tailong Charitable Foundation
+    date: '2023-01-01'
+    icon: hero/star
+  - title: Second Class Outstanding Scholarship
+    awarder: Sun Yat-sen University
+    date: '2018-01-01'
+    summary: Awarded in 2016 and 2018.
+    icon: hero/academic-cap
+---
